@@ -46,7 +46,9 @@
             <Version>1.0.5</Version>
             <Comment>
                 *Version bump
-                *autotools -> cmake
+                *switch to cmake
+                *fix several bugs
+                *six new languages supported
             </Comment>
             <Name>Özgür Kuru</Name>
             <Email>ozgurkuru@gmail.com</Email>
