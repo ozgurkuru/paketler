@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>chmsee</Name>
+        <Summary xml:lang="tr">Linux/Unix için HTML yardım gösterici</Summary>
+        <Description xml:lang="tr">Chmsee CHMLIB tabanlı, önyüzünde GTK+ kullanan bir  Linux ve Unix makinalar için HTML yardım gösterici programıdır. Gecko HTML motoru kullandığı için modern HTML teknolojileri olan CSS ve JavaScript desteği bulunmaktadır.</Description>
+    </Source>
+</PISI>
