@@ -13,7 +13,7 @@
         <IsA>app:gui</IsA>
         <Summary>An HTML Help viewer for Unix/Linux</Summary>
         <Description>ChmSee is an HTML Help viewer for Unix/Linux. It is based on CHMLIB and use Gtk+ as frontend toolkit. Because of using gecko as HTML rendering engine, ChmSee can support rich features of modern HTML page, such as CSS and JavaScript.</Description>
-        <Archive sha1sum="a22c2d68185f31019bab97e28a3bd79ad97a879c" type="targz">http://chmsee.googlecode.com/files/chmsee-1.0.4.tar.gz</Archive>
+        <Archive sha1sum="37b0b14a6a039f8ebb27d2d642960677d81a6a02" type="targz">http://chmsee.googlecode.com/files/chmsee-1.0.5.tar.gz</Archive>
         <BuildDependencies>
             <Dependency>libglade</Dependency>
             <Dependency>chmlib</Dependency>
@@ -41,6 +41,16 @@
     </Package>
 
     <History>
+        <Update release="2">
+            <Date>2009-06-07</Date>
+            <Version>1.0.5</Version>
+            <Comment>
+                *Version bump
+                *autotools -> cmake
+            </Comment>
+            <Name>Özgür Kuru</Name>
+            <Email>ozgurkuru@gmail.com</Email>
+        </Update>
         <Update release="1">
             <Date>2009-03-18</Date>
             <Version>1.0.4</Version>
