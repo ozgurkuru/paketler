@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>xfce4-clipman-plugin</Name>
+        <Summary xml:lang="tr">Xfce4 paneli için pano eklentisi</Summary>
+        <Description xml:lang="tr">Clipman, bellekte bulunan kopyalanmış yazıları seçerek kullanabilmenizi sağlayan bir eklentidir.</Description>
+    </Source>
+</PISI>

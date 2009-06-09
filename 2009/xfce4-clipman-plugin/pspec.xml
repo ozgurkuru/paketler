@@ -1,0 +1,76 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>xfce4-clipman-plugin</Name>
+        <Homepage>http://goodies.xfce.org/projects/panel-plugins/xfce4-clipman-plugin/</Homepage>
+        <Packager>
+            <Name>Gökmen Görgen</Name>
+            <Email>gkmngrgn@gmail.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <Icon>xfce4-panel</Icon>
+        <IsA>app:gui</IsA>
+        <Summary>A clipboard plugin for the Xfce4 panel</Summary>
+        <Description>The clipman plugin allows you to keep several clipboard selections in memory which you can then use to toggle.</Description>
+        <Archive sha1sum="d37985791c7bf38867409f5aa9aee5e8d9fb338c" type="tarbz2">http://goodies.xfce.org/releases/xfce4-clipman-plugin/xfce4-clipman-plugin-1.0.0.tar.bz2</Archive>
+        <BuildDependencies>
+            <Dependency versionFrom="4.4.2">xfce4-panel</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>xfce4-clipman-plugin</Name>
+        <RuntimeDependencies>
+            <Dependency versionFrom="4.4.2">xfce4-panel</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/xfce4</Path>
+        </Files>
+    </Package>
+
+    <History>
+	<Update release="5">
+	    <Date>2009-04-22</Date>
+	    <Version>1.0.0</Version>
+	    <Comment>Version bump</Comment>
+	    <Name>Özgür Kuru</Name>
+	    <Email>ozgurkuru@gmail.com</Email>
+	</Update>
+        <Update release="4">
+            <Date>2009-03-31</Date>
+            <Version>0.9.1</Version>
+            <Comment>
+                * Version bump.
+                * Added description and fixed summary.
+                * Disabled static libraries.
+            </Comment>
+            <Name>Gökmen Görgen</Name>
+            <Email>gkmngrgn@gmail.com</Email>
+        </Update>
+	<Update release="3">
+            <Date>2009-01-19</Date>
+            <Version>0.9.0</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Gökmen Görgen</Name>
+            <Email>gkmngrgn@gmail.com</Email>
+        </Update>
+        <Update release="2">
+            <Date>2008-11-16</Date>
+            <Version>0.8.1</Version>
+            <Comment>Version bump.</Comment>
+            <Name>Gökmen Görgen</Name>
+            <Email>gkmngrgn@gmail.com</Email>
+        </Update>
+        <Update release="1">
+            <Date>2007-04-14</Date>
+            <Version>0.8.0</Version>
+            <Comment>First release.</Comment>
+            <Name>Eren Türkay</Name>
+            <Email>turkay.eren@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
