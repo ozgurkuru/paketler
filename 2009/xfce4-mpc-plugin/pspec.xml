@@ -1,0 +1,46 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>xfce4-mpc-plugin</Name>
+        <Homepage>http://goodies.xfce.org/projects/panel-plugins/xfce4-mpc-plugin</Homepage>
+        <Packager>
+            <Name>Özgür Kuru</Name>
+            <Email>ozgurkuru@gmail.com</Email>
+        </Packager>
+        <License>as-is</License>
+        <Icon>xfce-multimedia</Icon>
+        <IsA>app:gui</IsA>
+        <Summary>A simple MPD client for Xfce4 panel</Summary>
+        <Description>Xfce4-mpc-plugin is a simple Music Player Daemon client to send play, pause, stop or more commands for Xfce4 panel.</Description>
+        <Archive sha1sum="e79e403f6b4e3dfd16f80dfe02ab554294eda961" type="targz">http://goodies.xfce.org/releases/xfce4-mpc-plugin/xfce4-mpc-plugin-0.3.3.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>xfce4-panel</Dependency>
+            <Dependency>libmpd</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>xfce4-mpc-plugin</Name>
+        <RuntimeDependencies>
+            <Dependency>xfce4-panel</Dependency>
+            <Dependency>libmpd</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="executable">/usr/libexec</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/xfce4</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2009-04-26</Date>
+            <Version>0.3.3</Version>
+            <Comment>First release.</Comment>
+            <Name>Özgür Kuru</Name>
+            <Email>ozgurkuru@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

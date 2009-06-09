@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>xfce4-mpc-plugin</Name>
+        <Summary xml:lang="tr">Xfce4 paneli için basit MPD istemcisi</Summary>
+        <Description xml:lang="tr">Xfce4-mpc-plugin, Xfce4 paneline yerleşen; çalma, durdurma, duraklama gibi komutları istemciye göndermeye yarayan basit bir Müzik Çalar Servisi (MPD) istemcisidir.</Description>
+    </Source>
+</PISI>
