@@ -1,0 +1,10 @@
+--- xfbib.desktop.orig	2008-05-21 03:09:52.000000000 +0300
++++ xfbib.desktop	2008-05-21 03:10:45.000000000 +0300
+@@ -6,6 +6,7 @@
+ Icon=xfbib
+ Type=Application
+ Comment=A BibTeX editor for Xfce
++Comment[tr]=Xfce için BiBTeX editörü
+ Terminal=0
+ MimeType=text/x-bibtex
+ Categories=Application;Office;GTK;

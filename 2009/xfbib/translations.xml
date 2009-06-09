@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>xfbib</Name>
+        <Summary xml:lang="tr">Xfce için hafif BibTeX düzenleyicisi</Summary>
+        <Description xml:lang="tr">Xfbib, Xfce masaüstü yöneticisi için geliştirilmiş BibTeX düzenleyicisidir. Xfbib'in amacı, BibTeX dosyalarını, kolay ve yeterli yoldan düzenlemeyi sağlamaktır.</Description>
+    </Source>
+</PISI>
