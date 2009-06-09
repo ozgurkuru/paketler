@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>xfce4-notifyd</Name>
+        <Summary xml:lang="tr">Xfce için basit DBUS mesajlarını görüntüleme aracı</Summary>
+        <Description xml:lang="tr">Xfce Notify Daemon, DBUS mesajlarını org.freedesktop.Notifications kullanarak ekrana açılır pencere olarak bildirir.</Description>
+    </Source>
+</PISI>

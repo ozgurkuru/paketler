@@ -1,0 +1,54 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>xfce4-notifyd</Name>
+        <Homepage>http://spuriousinterrupt.org/projects/xfce4-notifyd</Homepage>
+        <Packager>
+            <Name>Özgür Kuru</Name>
+            <Email>ozgurkuru@gmail.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <Icon>xfce4-notifyd</Icon>
+        <IsA>app:gui</IsA>
+        <Summary>Xfce4 notify deamon</Summary>
+        <Description>The Xfce Notify Daemon (xfce4-notifyd for short) is a smallish program that implements the "server-side" portion of the Freedesktop desktop notifications specification. Applications that wish to pop up a notification bubble ina standard way can implicitly make use of xfce4-notifyd to do so by sending standard messages over D-Bus using the org.freedesktop. Notifications interface.</Description>
+        <Archive sha1sum="18dd2a327df25880c3975b470b8b998fd6bf69ef" type="tarbz2">http://spuriousinterrupt.org/files/xfce4-notifyd/xfce4-notifyd-0.1.0.tar.bz2</Archive>
+        <BuildDependencies>
+            <Dependency versionFrom="4.6.0">libxfcegui4</Dependency>
+            <Dependency>libsexy</Dependency>
+            <Dependency>hicolor-icon-theme</Dependency>
+        </BuildDependencies>
+    </Source>
+    <Package>
+        <Name>xfce4-notifyd</Name>
+        <RuntimeDependencies>
+            <Dependency versionFrom="4.6.0">libxfcegui4</Dependency>
+            <Dependency>libsexy</Dependency>
+            <Dependency>hicolor-icon-theme</Dependency>
+        </RuntimeDependencies>
+        <Conflicts>
+            <Package>notification-daemon</Package>
+        </Conflicts>
+        <Files>
+            <Path fileType="executable">/usr/bin</Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="data">/usr/share/applications</Path>
+            <Path fileType="doc">/usr/share/doc</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
+            <Path fileType="data">/usr/share/themes</Path>
+            <Path fileType="data">/usr/share/dbus-1</Path>
+            <Path fileType="data">/usr/share/icons</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2009-03-04</Date>
+            <Version>0.1.0</Version>
+            <Comment>First Release.</Comment>
+            <Name>Özgür Kuru</Name>
+            <Email>ozgurkuru@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
