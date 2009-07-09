@@ -12,14 +12,12 @@
         <IsA>library</IsA>
         <Summary>A glib/gtk set of document centric objects and utilities</Summary>
         <Description>A glib/gtk set of document centric objects and utilities</Description>
-        <Archive sha1sum="d36ce9867477b752cc6cc30459867b43d8fd7918" type="targz">http://caesar.acc.umu.se/pub/GNOME/sources/goffice/0.6/goffice-0.6.0.tar.gz</Archive>
+        <Archive sha1sum="fdb00804de201e057628ba5b997512ab882ca9ea" type="targz">http://caesar.acc.umu.se/pub/GNOME/sources/goffice/0.6/goffice-0.6.6.tar.gz</Archive>
         <BuildDependencies>
-            <Dependency>glib2</Dependency>
             <Dependency>gtk2</Dependency>
             <Dependency>pango</Dependency>
             <Dependency>libgsf</Dependency>
             <Dependency>libglade</Dependency>
-            <Dependency>libxml2</Dependency>
             <Dependency>libart_lgpl</Dependency>
         </BuildDependencies>
     </Source>
@@ -27,16 +25,14 @@
     <Package>
         <Name>goffice</Name>
         <RuntimeDependencies>
-            <Dependency>glib2</Dependency>
             <Dependency>gtk2</Dependency>
             <Dependency>pango</Dependency>
             <Dependency>libgsf</Dependency>
             <Dependency>libglade</Dependency>
-            <Dependency>libxml2</Dependency>
             <Dependency>libart_lgpl</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="all">/  </Path>
         </Files>
     </Package>
 
