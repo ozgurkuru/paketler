@@ -1,0 +1,52 @@
+<?xml version="1.0" ?>
+<!DOCTYPE PISI SYSTEM "http://www.pardus.org.tr/projeler/pisi/pisi-spec.dtd">
+<PISI>
+    <Source>
+        <Name>goffice</Name>
+        <Homepage>http://live.gnome.org/GnomeOffice</Homepage>
+        <Packager>
+            <Name>Özgür Kuru</Name>
+            <Email>ozgurkuru@gmail.com</Email>
+        </Packager>
+        <License>GPLv2</License>
+        <IsA>library</IsA>
+        <Summary>A glib/gtk set of document centric objects and utilities</Summary>
+        <Description>A glib/gtk set of document centric objects and utilities</Description>
+        <Archive sha1sum="d36ce9867477b752cc6cc30459867b43d8fd7918" type="targz">http://caesar.acc.umu.se/pub/GNOME/sources/goffice/0.6/goffice-0.6.0.tar.gz</Archive>
+        <BuildDependencies>
+            <Dependency>glib2</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libgsf</Dependency>
+            <Dependency>libglade</Dependency>
+            <Dependency>libxml2</Dependency>
+            <Dependency>libart_lgpl</Dependency>
+        </BuildDependencies>
+    </Source>
+
+    <Package>
+        <Name>goffice</Name>
+        <RuntimeDependencies>
+            <Dependency>glib2</Dependency>
+            <Dependency>gtk2</Dependency>
+            <Dependency>pango</Dependency>
+            <Dependency>libgsf</Dependency>
+            <Dependency>libglade</Dependency>
+            <Dependency>libxml2</Dependency>
+            <Dependency>libart_lgpl</Dependency>
+        </RuntimeDependencies>
+        <Files>
+            <Path fileType="library">/usr/lib</Path>
+        </Files>
+    </Package>
+
+    <History>
+        <Update release="1">
+            <Date>2009-07-09</Date>
+            <Version>0.6.0</Version>
+            <Comment>First Release.</Comment>
+            <Name>Özgür Kuru</Name>
+            <Email>ozgurkuru@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>

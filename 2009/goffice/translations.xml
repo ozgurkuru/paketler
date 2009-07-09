@@ -1,0 +1,8 @@
+<?xml version="1.0" ?>
+<PISI>
+    <Source>
+        <Name>goffice</Name>
+        <Summary xml:lang="tr">Merkezi döküman nesne ve araçları için gtk/glib seti</Summary>
+        <Description xml:lang="tr">Merkezi döküman nesne ve araçları için gtk/glib seti.</Description>
+    </Source>
+</PISI>
