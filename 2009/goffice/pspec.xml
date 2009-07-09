@@ -32,14 +32,19 @@
             <Dependency>libart_lgpl</Dependency>
         </RuntimeDependencies>
         <Files>
-            <Path fileType="all">/  </Path>
+            <Path fileType="library">/usr/lib</Path>
+            <Path fileType="doc">/usr/share/gtk-doc</Path>
+            <Path fileType="data">/usr/share</Path>
+            <Path fileType="data">/usr/share/pixmaps</Path>
+            <Path fileType="header">/usr/include</Path>
+            <Path fileType="localedata">/usr/share/locale</Path>
         </Files>
     </Package>
 
     <History>
         <Update release="1">
             <Date>2009-07-09</Date>
-            <Version>0.6.0</Version>
+            <Version>0.6.6</Version>
             <Comment>First Release.</Comment>
             <Name>Özgür Kuru</Name>
             <Email>ozgurkuru@gmail.com</Email>
