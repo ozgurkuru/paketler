@@ -10,7 +10,7 @@
         </Packager>
         <License>GPLv2</License>
         <IsA>library</IsA>
-        <Summary>A glib/gtk set of document centric objects and utilities</Summary>
+        <Summary>Set of document centric objects and utilities</Summary>
         <Description>A glib/gtk set of document centric objects and utilities</Description>
         <Archive sha1sum="fdb00804de201e057628ba5b997512ab882ca9ea" type="targz">http://caesar.acc.umu.se/pub/GNOME/sources/goffice/0.6/goffice-0.6.6.tar.gz</Archive>
         <BuildDependencies>
@@ -19,6 +19,7 @@
             <Dependency>libgsf</Dependency>
             <Dependency>libglade</Dependency>
             <Dependency>libart_lgpl</Dependency>
+            <Dependency>libgsf-gnome</Dependency>
         </BuildDependencies>
     </Source>
 
@@ -30,6 +31,7 @@
             <Dependency>libgsf</Dependency>
             <Dependency>libglade</Dependency>
             <Dependency>libart_lgpl</Dependency>
+            <Dependency>libgsf-gnome</Dependency>
         </RuntimeDependencies>
         <Files>
             <Path fileType="library">/usr/lib</Path>
